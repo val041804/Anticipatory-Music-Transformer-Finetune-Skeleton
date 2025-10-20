@@ -27,7 +27,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 * pyenv
@@ -75,6 +75,7 @@ shuf $DATAPATH/train-ordered.txt > $DATAPATH/train.txt
   ```
 6. run ``finetune.py``
 7. run ``generate.py``
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

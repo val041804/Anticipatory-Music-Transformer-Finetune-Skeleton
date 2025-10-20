@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
   ```sh
   pyenv install 3.11
   ```
-    ```sh
+  ```sh
   pyenv shell 3.11
   ```
 Verify that your python version has been switched to 3.11
@@ -46,13 +46,13 @@ Verify that your python version has been switched to 3.11
  ```sh
   git clone https://github.com/jthickstun/anticipation.git
   ```
-   ```sh
+  ```sh
   cd ./anticipation
   ```
-   ```sh
+  ```sh
   python3 -m pip install .
   ```
-   ```sh
+  ```sh
   python3 -m pip install -r requirements.txt
   ```
   

@@ -64,10 +64,10 @@ python3 -m pip install -r requirements.txt
 3. Separate ``tokenized-events-*.txt`` into an 80/20 for training/validation. The training/validation text files should be separated into their own directories.
 4. Then:
  ```sh
- cat $DATAPATH/training/tokenized-events-*.txt > $DATAPATH/train-ordered.txt
+ cat $DATAPATH/training/*.tokenized-events.txt > $DATAPATH/train-ordered.txt
   ```
    ```sh
-  cat $DATAPATH/validation/tokenized-events-*.txt > $DATAPATH/valid-ordered.txt
+  cat $DATAPATH/validation/*.tokenized-events.txt > $DATAPATH/valid-ordered.txt
   ```
 5. Then:
  ```sh

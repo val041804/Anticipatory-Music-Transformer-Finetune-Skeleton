@@ -31,30 +31,30 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 * pyenv
-  ```sh
-  pyenv install 3.11
-  ```
-  ```sh
-  pyenv shell 3.11
-  ```
+```sh
+pyenv install 3.11
+```
+```sh
+pyenv shell 3.11
+```
 Verify that your python version has been switched to 3.11
-  ```sh
-  python3 --version
-  ```
+```sh
+python3 --version
+```
 
 * anticipation
- ```sh
-  git clone https://github.com/jthickstun/anticipation.git
-  ```
-  ```sh
-  cd ./anticipation
-  ```
-  ```sh
-  python3 -m pip install .
-  ```
-  ```sh
-  python3 -m pip install -r requirements.txt
-  ```
+```sh
+git clone https://github.com/jthickstun/anticipation.git
+```
+```sh
+cd ./anticipation
+```
+```sh
+python3 -m pip install .
+```
+```sh
+python3 -m pip install -r requirements.txt
+```
   
 <!-- USAGE EXAMPLES -->
 ## Usage
